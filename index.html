@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danish | Data Analyst Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 10; padding: 05; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #0f172a; color: #38bdf8; }
+
+    /* Layout */
+    .container { display: flex; min-height: 100vh; }
+
+    /* Sidebar */
+    .sidebar {
+      width: 260px;
+      background: #020617;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      height: 100vh;
+    }
+    .sidebar img {
+      width: 150px;
+      height: 150px;
+      border-radius: 70%;
+      border: 3px solid #38bdf8;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .sidebar h2 { color: #38bdf8; margin-bottom: 5px; }
+    .sidebar p { font-size: 18px; text-align: center; color: #ebecef; margin-bottom: 25px; }
+    .sidebar a {
+      width: 100%;
+      text-decoration: none;
+      color: #e5e7eb;
+      padding: 12px 15px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      text-align: center;
+      background: #020617;
+      transition: 0.3s;
+    }
+    .sidebar a:hover { background: #4a89a3; color: #020617; }
+
+    /* Main Content */
+    .main {
+      margin-left: 260px;
+      padding: 50px;
+      width: 100%;
+    }
+
+    section { margin-bottom: 80px; }
+    section h1 { font-size: 36px; color: #38bdf8; margin-bottom: 20px; }
+    section p { color: #dadff0; max-width: 800px; }
+    /*techniques*/
+
+    .data { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; }
+    .data-box {
+      background: #020617;
+      padding: 15px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .data-box h3 { color: #38bdf8; }
+    /* Skills */
+    .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; }
+    .skill-box {
+      background: #020617;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .skill-box h3 { color: #38bdf8; }
+
+    /* Projects */
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+    .project {
+      background: #020617;
+      padding: 25px;
+      border-radius: 16px;
+      transition: transform 0.3s;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .project:hover { transform: translateY(-8px); }
+    .project h3 { color: #38bdf8; margin-bottom: 10px; }
+
+    /* Contact */
+    .contact p { margin-bottom: 10px; }
+    .contact a { color: #38bdf8; text-decoration: none; }
+
+    footer { text-align: center; padding: 20px; color: #94a3b8; }
+
+    @media(max-width: 768px) {
+      .sidebar { position: relative; width: 100%; height: auto; flex-direction: row; justify-content: space-around; }
+      .sidebar img { display: none; }
+      .main { margin-left: 0; padding: 30px; }
+      .sidebar a { width: auto; padding: 8px 12px; font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <img src="dp.png" alt="Danish">
+    <h2>Danish</h2>
+    <p>Data Analyst</p>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+
+    <section id="about">
+      <h1>About Me</h1>
+      <p>
+        Detail-oriented Data Analyst Fresher with strong hands-on experience in Advanced Excel, Power BI, PostgreSQL, and Python (Pandas, NumPy). Skilled in data cleaning, exploratory data analysis (EDA), dashboard development, KPI reporting, and SQL-based data extraction. Proven ability to transform raw datasets into actionable business insights through academic and real-world projects. Seeking an entry-level Data Analyst / MIS Executive role to support data-driven decision-making and business growth.
+      </p>
+    </section id="data">
+    <h1>Skills & Techniques</h1>
+    <div class="data">
+      <div class="data-box"><h3>Data Cleaning & Transformation</h3></div>
+      <div class="data-box"><h3>Exploratory Data Analysis (EDA)</h3></div>
+      <div class="data-box"><h3>KPI Development & Reporting</h3></div>
+      <div class="data-box"><h3>Trend & Performance Analysis</h3></div>
+      <div class="data-box"><h3>Business Intelligence Reporting</h3></div>
+      <div class="data-box"><h3>Good Communication & Decision Making Skills</h3></div>
+    </div>
+    <section>
+
+    </section>
+
+    <section id="skills">
+      <h1>Tools And Technologies</h1>
+      <div class="skills">
+        <div class="skill-box"><h3>Advanced Excel</h3></div>
+        <div class="skill-box"><h3>Power BI</h3></div>
+        <div class="skill-box"><h3>PostgreSQL </h3></div>
+        <div class="skill-box"><h3>Python (Pandas, NumPy)</h3></div>
+        <div class="skill-box"><h3>Data Cleaning</h3></div>
+        <div class="skill-box"><h3>Dashboard Design</h3></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="projects">
+        <div class="project">
+        
+          <h3>Sales Dashboard | EXCEL |</h3>
+          <p>
+            •	Designed an interactive Excel dashboard to analyze sales performance across<b> regions, segments, product categories, shipping modes, and sales representatives.</b></p><p>
+            •	Performed <b>Data cleaning and Transformation</b> on raw transactional data to ensure accuracy and consistency.</p><p>
+            •	Built <b>KPIs, Pivot Tables, Pivot Charts, and Slicers</b> to enable dynamic filtering and insights.</p><p>
+            •	Improved sales trend visibility and reporting efficiency by <b>25%</b>, enabling faster business decisions.
+
+          </p>
+        </div>
+        <div class="project">
+          <h3>Global Sales & Profit Analysis Dashboard | POWER BI |</h3>
+          <p>
+            •	Developed a Power BI dashboard to evaluate global sales and profit trends for a clothing brand.</p>
+            <p>
+            •	Implemented <b>ETL processes using Power Query to clean and transform</b> multi-country sales data.</p>
+            <p>
+            •	Created <b>KPI cards, bar charts, pie charts, and monthly trend analysis</b> for executive-level reporting.</p> <p>
+            •	Enabled stakeholders to identify top-performing <b>regions, discount bands, and product categories,  improving strategic planning.</b>
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h1>Contact</h1>
+      <p>Email: <a href="mailto:danishwithlinkedin@gmail.com">danishwithlinkedin@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/danishanalyst0357" target="_blank">linkedin.com/in/danishanalyst0357</a></p>
+      <p>Location: Firozpur, Punjab, India </p>
+    </section>
+
+    <footer>
+      © 2026 Danish | Data Analyst Portfolio
+    </footer>
+
+  </div>
+</div>
+
+</body>
+</html>
